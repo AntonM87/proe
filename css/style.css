@@ -4,6 +4,13 @@
   width: device-width;
   zoom: 2;
   user-zoom: fixed; }
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .your-specification .select {
+    position: relative;
+    top: -109px; }
+
+  .gallery-container {
+    height: 640px; } }
 * {
   margin: 0;
   padding: 0;
@@ -18,15 +25,8 @@
     color: white;
     text-decoration: none; }
 
-@media (min-width: 1441px) and (max-width: 1920px) {
-  .your-specification .select {
-    position: relative;
-    top: -109px; }
-
-  .gallery-container {
-    height: 640px; } }
 body {
-  max-width: 1920px; }
+  width: 100%; }
 
 header {
   height: 100px;
